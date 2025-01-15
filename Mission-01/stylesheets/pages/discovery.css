@@ -1,1 +1,52 @@
 /* CSS 작성 */
+.container {
+  width: 1020px;
+  height: 1098px;
+  margin: 100px 579px 242px 321px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1 {
+  width: auto;
+  height: 40px;
+  margin: 0 0 48px 0;
+}
+
+h1 img {
+  width: 176px;
+  height: 40px;
+  margin: 0, auto;
+}
+
+section {
+  width: 1020px;
+}
+
+h2 {
+  margin: 0 0 16px 0;
+  padding-top: 8px;
+}
+
+.title {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  color: #181818;
+  line-height: 115%;
+  width: 366px;
+  height: 28px;
+}
+
+.hidden-text {
+  color: #aaa9a9;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  color: #aaa9a9;
+  line-height: 115%;
+}

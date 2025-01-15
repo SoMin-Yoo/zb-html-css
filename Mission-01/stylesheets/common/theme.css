@@ -1,1 +1,8 @@
 /* Theme 스타일 작성 */
+:root {
+  --Black: #181818;
+  --gray-600: #aaa9a9;
+  --gray-500: #c4c4c4;
+  --White: #fff;
+  --blue-600: #0074e9;
+}
