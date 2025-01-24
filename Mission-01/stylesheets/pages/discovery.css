@@ -50,3 +50,95 @@ h2 {
   color: #aaa9a9;
   line-height: 115%;
 }
+
+.area {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.area.left {
+  margin: 8px 8px 8px 0;
+}
+
+.area.right {
+  margin: 8px 0 8px 8px;
+}
+
+.area.normal {
+  margin: 8px;
+}
+
+.image img {
+  position: center;
+}
+
+.big {
+  width: 502px;
+  height: 310px;
+  border: 1px solid #c4c4c4;
+  background-color: #fff;
+}
+
+.small {
+  width: 243px;
+  height: 310px;
+  border: 1px solid #c4c4c4;
+  background-color: #fff;
+}
+
+.before {
+  width: 42px;
+  height: 42px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 248px 440px 20px 20px;
+  position: absolute;
+}
+
+.before_s {
+  width: 42px;
+  height: 42px;
+  background-color: rgba(0, 0, 0, 0.2);
+  margin: 248px 181px 20px 20px;
+  position: absolute;
+}
+
+.area::before {
+  content: '구매하기 >';
+  display: flex;
+  position: absolute;
+  width: 112px;
+  height: 42px;
+  background-color: #0074e9;
+  word-spacing: 16px;
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  color: white;
+  display: block;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.1s;
+  left: 20px;
+  bottom: 20px;
+  z-index: 1;
+}
+
+.area:hover::before {
+  opacity: 1;
+}
+
+.area:hover {
+  border: 1px solid #0074e9;
+}
+
+.area:focus {
+  outline: 1px solid #0074e9;
+}
