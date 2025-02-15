@@ -1,1 +1,176 @@
 /* 오늘의 쇼핑 제안 */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body .container {
+  width: 1022px;
+  height: auto;
+  margin: 100px 113px 0 145px;
+}
+
+header {
+  height: 40px;
+  margin-bottom: 49px;
+}
+
+h1 {
+  height: 40px;
+  margin: 0;
+}
+
+header img {
+  width: 176px;
+  height: 40px;
+  margin-right: 957px;
+}
+
+.logo_link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+section {
+  width: 1022px;
+  height: 354px;
+  margin-bottom: 1458px;
+}
+
+.title area {
+  margin-bottom: 24px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.icon {
+  background-image: url(/assets/icon/shopping.svg);
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+}
+
+.text {
+  width: 168px;
+  height: 28px;
+  font-family: Noto Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 115%;
+  color: #181818;
+}
+
+.image {
+  display: flex;
+  margin: 24px 0 0 0;
+}
+
+.product {
+  width: 200px;
+  height: 270px;
+}
+
+.product.right {
+  margin-right: 5px;
+}
+
+.item_image {
+  padding: 14px 20px 12px 20px;
+}
+
+.item_info {
+  margin: auto 14px;
+}
+
+span {
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #181818;
+  width: 172px;
+  height: 17px;
+}
+
+.item_title {
+  width: 172px;
+  height: 17px;
+  margin-bottom: 12px;
+}
+
+.free {
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  color: #767676;
+}
+
+.item_deliver {
+  margin-bottom: 6px;
+}
+
+.product {
+  position: relative;
+}
+
+.discount {
+  position: absolute;
+}
+
+.item_review {
+  width: 68px;
+  height: 12px;
+  display: flex;
+}
+
+.review_score {
+  width: 68px;
+  height: 12px;
+  margin-right: 4px;
+}
+
+.review_score img {
+  width: 68px;
+  height: 12px;
+}
+
+.dc {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  color: #fff;
+  background-color: #e52330;
+  width: 53px;
+  height: 30px;
+  border-radius: 0px 0px 4px 0px;
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 3px 10px;
+}
+
+.review_count {
+  font-family: Noto Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  color: #767676;
+}
